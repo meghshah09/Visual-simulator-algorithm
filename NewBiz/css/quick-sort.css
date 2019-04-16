@@ -1,0 +1,40 @@
+#codetrace {
+    bottom: 60px;
+    right: 43px;
+    font-family: courier new,Courier,monospace;
+    left:50%;
+}
+
+#codetrace p{
+	margin:0px;
+}
+#codetrace p.active{
+	background-color:rgb(75, 101, 186);
+}
+.panel {
+    color: #fff;
+    width: 0;
+    overflow: hidden;
+    background: #777;
+    white-space: nowrap;
+}
+
+#wrapper{
+	padding-top: 20px;
+}
+
+#wrapper span{
+	padding:8px;
+}
+#services button{
+  position:relative; 
+  width:100px; 
+  top:50%; 
+  left:45%;
+  padding: 10px;
+}
+
+#chartContainer{
+	height: 370px; 
+	width: 40%;
+}

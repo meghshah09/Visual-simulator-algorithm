@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Quick Sort</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+
+  <!-- Pre-loaded Script -->
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+    <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/quick-sort.css">
+
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <a href="index.html" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+      
+    </div>
+  </header><!-- #header -->
+
+   
+    <!--==========================
+      Algorithm Section
+    ============================-->
+    <section id="services" class="section-bg" style="padding: 200px 0px 75px 0px;">
+      <div class="container " id="chartContainer" ></div>
+        <div id="wrapper">
+          <span><button class="btn btn-success btn-secondary" id="start">Start</button></span>
+          <span><button class="btn btn-danger btn-secondary" id="pause">Pause</button></span>
+        </div>
+
+   <div id="codetrace" class="panel" style="background-color: #000; width: 420px;">
+      <p id="code1" style="padding-top: 10px; color: rgb(255, 255, 255);">for each (unsorted) partition</p>
+      <p id="code2" style="color: rgb(255, 255, 255);">set first element as pivot</p>
+      <p id="code3" style="color: rgb(255, 255, 255);">&nbsp;&nbsp;storeIndex = pivotIndex + 1</p>
+      <p id="code4" style="color: rgb(255, 255, 255);">&nbsp;&nbsp;for i = pivotIndex + 1 to rightmostIndex</p>
+      <p id="code5" style="color: rgb(255, 255, 255);">&nbsp;&nbsp;&nbsp;&nbsp;if element[i] &lt; element[pivot]</p>
+      <p id="code6" style="color: rgb(255, 255, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;swap(i, storeIndex); storeIndex++</p>
+      <p id="code7" style="padding-bottom: 10px; color: rgb(255, 255, 255);">&nbsp;&nbsp;swap(pivot, storeIndex - 1)</p>
+</div>
+
+ </section><!-- #services -->
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="js/quick-sort.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <!-- <script src="js/main.js"></script> -->
+
+</body>
+</html>
